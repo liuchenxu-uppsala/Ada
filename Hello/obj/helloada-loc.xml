@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Locations>
+  <Project>
+    <vfs_file>C:\GNATSTUDIO\bin\helloada.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\GNATSTUDIO\bin\helloada.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\GNATSTUDIO\bin\helloada.gpr</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>C:\GNATSTUDIO\bin\helloada.gpr</vfs_project>
+      <vfs_file>C:\GNATSTUDIO\bin\src\main.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
