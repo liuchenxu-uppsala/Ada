@@ -1,0 +1,29 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\GNATSTUDIO\bin\helloada.gpr
+20251111121418 bba17c0c06167b0c24915c499271be94
+[BOUND OBJECT FILES]
+C:\GNATSTUDIO\bin\obj\calculator.o
+C:\GNATSTUDIO\bin\obj\case_when.o
+C:\GNATSTUDIO\bin\obj\father-son.o
+C:\GNATSTUDIO\bin\obj\father.o
+C:\GNATSTUDIO\bin\obj\ffather-sson.o
+C:\GNATSTUDIO\bin\obj\ffather.o
+C:\GNATSTUDIO\bin\obj\master_system-sub_system.o
+C:\GNATSTUDIO\bin\obj\master_system.o
+C:\GNATSTUDIO\bin\obj\NestedProcedure.o
+C:\GNATSTUDIO\bin\obj\others_test.o
+C:\GNATSTUDIO\bin\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\GNATSTUDIO\bin\obj\
+-LC:\GNATSTUDIO\bin\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

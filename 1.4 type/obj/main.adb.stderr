@@ -1,0 +1,1 @@
+C:\GNATSTUDIO\bin\src\main.adb:43:01: warning: variable "my_array_2" is never read and never assigned [-gnatwv]
