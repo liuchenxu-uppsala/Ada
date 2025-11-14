@@ -1,0 +1,1 @@
+procedure others_test(value:in Integer);
