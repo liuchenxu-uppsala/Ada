@@ -1,0 +1,16 @@
+project Helloada is
+    for Source_Dirs use ("src", "src/calc","src/calc2","src/nestprocedure","src/master","src/package","src/others","src/task","src/again"
+    ,"src/again/sub_unit","src/again/calculator","src/again/convertor","src/again/new","src/again/nested"
+    ,"src/again/fathersonpackage","src/again/functions","src/again/loops","src/again/cases","src/again/records","src/again/arrays"
+    ,"src/again/access","src/again/tasks"
+    ,"src/again/protects","src/again/pre-post-conditions"
+    ,"src/again/tasks-type","src/again/Predicates");
+    for Object_Dir use "obj";
+    for Main use ("main2.adb");
+   --  package Builder is
+   --      for Global_Configuration_Pragmas use "assertions.cfg";
+   --  end Builder;
+    package Compiler is
+      for Switches ("Ada") use ("-gnata", "-gnatE","-gnat2022");
+   end Compiler;
+end Helloada;
