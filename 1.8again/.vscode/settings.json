@@ -1,0 +1,7 @@
+{
+    "ada.projectFile": "helloada.gpr",
+    "files.associations": {
+        "*.adb": "ada",
+        "*.ads": "ada"
+    }
+}

@@ -20,11 +20,6 @@ package body Safe_Counter_Pkg is
          return Counter; -- 安全读取共享数据 Counter
       end Get_Value;
 
-      function Get_Value return Integer is
-      begin
-        return Counter;
-      end Get_Value;
-
       -- 3. 实现条件等待入口
       -- "when Counter > 0" 就是屏障 (Barrier)
       entry Wait_For_Positive 
