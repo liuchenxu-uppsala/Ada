@@ -13,6 +13,9 @@ with ArrayFloat;
 with discriminantrecord;
 with workaccess;
 with worktask;
+with safe_counter_pkg;
+with safe_counter_pkg;
+with prepost;     use prepost;
 
 procedure Main is
    jobs : array (1 .. 5) of worktask.work;
@@ -84,4 +87,11 @@ begin
    for I in jobs'Range loop
       jobs (I).work (I);
    end loop;
+   Put_Line ("------------protected------------");
+   Put_Line ("------------prepost------------");
+   declare
+      return_result : Float := 0.0;
+   begin
+      return_result := squart (amount => 8);
+   end;
 end Main;
